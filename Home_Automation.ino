@@ -8,7 +8,7 @@ char data = 0;                //Variable for storing received data
 void setup() 
 {
   Serial.begin(9600);         //Sets the data rate in bits per second (baud) for serial data transmission
-  pinMode(2, OUTPUT);        //Sets digital pin 13 as output pin
+  pinMode(2, OUTPUT);        
   pinMode(3, OUTPUT);
   pinMode(4, OUTPUT);
   pinMode(5, OUTPUT);
