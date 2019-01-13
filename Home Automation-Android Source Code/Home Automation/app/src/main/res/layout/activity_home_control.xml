@@ -1,0 +1,214 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".HomeControl"
+    >
+
+    <TextView
+        android:id="@+id/into"
+        android:textColor="#ffff"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:text="Home Automation " />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device 1"
+        android:id="@+id/light1_text"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="80dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device 2"
+        android:id="@+id/light2_text"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="130dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Device 3"
+        android:id="@+id/light3_text"
+        android:layout_marginTop="180dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device 4"
+        android:fontFamily="sans-serif-smallcaps"
+        android:id="@+id/TV_text"
+        android:layout_marginTop="230dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device 5"
+        android:id="@+id/fan_text"
+        android:layout_marginTop="280dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device 6"
+        android:id="@+id/lock_text"
+        android:layout_marginTop="330dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device 7"
+        android:id="@+id/lock_text1"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginTop="380dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Device 8"
+        android:fontFamily="sans-serif-smallcaps"
+        android:id="@+id/lock_text2"
+        android:layout_marginTop="430dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#ffff" />
+
+
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Device  1 Off"
+        android:textOn="Device  1 On"
+        android:id="@+id/device1"
+        android:onClick="device1"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="200dp"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Device  2 Off"
+        android:textOn="Device  2 On"
+        android:id="@+id/device2"
+        android:onClick="device2"
+        android:layout_marginTop="130dp"
+        android:layout_marginLeft="200dp"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Device  3 Off"
+        android:textOn="Device  3 On"
+        android:id="@+id/device3"
+        android:onClick="device3"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="200dp"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Device 4 Off"
+        android:textOn="Device 4 On"
+        android:id="@+id/device4"
+        android:onClick="device4"
+        android:layout_marginTop="230dp"
+        android:layout_marginLeft="200dp"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Device 5 Off"
+        android:textOn="Device 5 On"
+        android:id="@+id/device5"
+        android:onClick="device5"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="200dp"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Device 6 On"
+        android:textOn="Device 6 Off"
+        android:id="@+id/device6"
+        android:onClick="device6"
+        android:layout_marginTop="330dp"
+        android:layout_marginLeft="200dp"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Device 7 On"
+        android:textOn="Device 7 Off"
+        android:id="@+id/device7"
+        android:onClick="device7"
+        android:layout_marginTop="380dp"
+        android:layout_marginLeft="200dp"
+        android:checked="false" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOff="Device 8 On"
+        android:textOn="Device 8 Off"
+        android:id="@+id/device8"
+        android:onClick="device8"
+        android:layout_marginTop="430dp"
+        android:layout_marginLeft="200dp"
+        android:checked="false" />
+
+    <Button
+        android:id="@+id/discnt"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#2ABFD5"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Disconnect"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/abt"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:backgroundTint="#2ABFD5"
+        android:fontFamily="sans-serif-smallcaps"
+        android:onClick="about"
+        android:text="About"
+        android:textSize="20dp" />
+</RelativeLayout>
